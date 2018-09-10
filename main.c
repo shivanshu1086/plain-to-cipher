@@ -14,6 +14,7 @@ int main()
     scanf("%d",&key);
     pt[strlen(pt)-1]='\0';
     length=(strlen(pt));
+    //Encryption
     for(i=0;i<length;i++)
     {
       ct[i]=pt[i]+key;
